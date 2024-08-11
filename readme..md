@@ -15,7 +15,7 @@ This is a project that uses NLP to analyse sentiment of reviews posted on amazon
 
 1. Clone the repository
 ```bash
-git clone <repo-url>
+git clone https://github.com/attharv26/sentiment_analysis.git
 ```
 
 2. Install the dependencies
