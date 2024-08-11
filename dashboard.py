@@ -1,3 +1,5 @@
+# author @ Atharv Pandey
+# date: 12 August, 2024
 import streamlit as st 
 import pandas as pd
 import plotly.express as px
@@ -63,7 +65,7 @@ sub_c1, sub_c2 = st.columns(2, gap='medium')
 
 sub_c1.header('POLARITY')
 sub_c1.scatter_chart(df['polarity'], color= '#FF0000', y_label='POLARITY')
-avg_polarity = float(df.polarity.mean())
+avg_polarity = round(float(df.polarity.mean()),2)
 sub_c1.metric('AVERAGE POLARITY', avg_polarity, f'{sentiment_identifier(avg_polarity)}')
 
 
