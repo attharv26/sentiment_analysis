@@ -54,7 +54,7 @@ with st.spinner('loading data.....'):
 c1, c2 = st.columns([3,1])
 c1.header('PRODUCT SENTIMENT ANALYSIS📊')
 c1.subheader('ONE PLUS NORD CE 3 LITE 5G📱',  divider='red')
-c2.image(r"D:\sentiment_analysis\oneplus_logo.jpeg", use_column_width=True )
+c2.image(r"oneplus_logo.jpeg", use_column_width=True )
 
 
 c1.header('DATA SUMMARY')
